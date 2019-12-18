@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link to Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Link to Devicons -->
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Sans:400,700&display=swap"
+        rel="stylesheet">
+    <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>youngfovere.io</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <div class="wrapper">
+
+            <!-- Hamburger Menu -->
+            <nav class="header__nav">
+                <label class="header__label" for="header__checkbox">
+                    <input type="checkbox" id="header__checkbox">
+                    <span class="header__circle">
+                        <span class="header__hamburger"></span>
+                    </span>
+                    <ul class="header__menu">
+                        <li class="header__item"><a href="#about" class="header__link hover">about</a></li>
+                        <li class="header__item"><a href="#portfolio" class="header__link hover">portfolio</a></li>
+                        <li class="header__item"><a href="#toolkit" class="header__link hover">toolkit</a></li>
+                        <li class="header__item"><a href="#contact" class="header__link hover">contact</a></li>
+                    </ul>
+                </label>
+            </nav>
+            <div class="header__container">
+                <h1 class="header__h1">Curtis Chat</h1>
+                <h2 class="header__h2">Developer | Photographer | Explorer | Storyteller</h2>
+            </div>
+            <figure class="arrowDown bounce">
+                <a href="#about" class="header__scroll" aria-label="Link to about section.">
+                    <i class="fas fa-angle-double-down"></i>
+                </a>
+            </figure>
+        </div>
+    </header>
+
+    <!-- This is the Good Stuff! -->
+    <main class="main">
+
+        <!-- Side Sticky Navigation -->
+        <nav class="main__nav">
+            <ul class="main__menu">
+                <li class="main__item">
+                    <a href="#about" class="main__link">
+                        N°1
+                        <span class="main__link--strike"></span>
+                    </a>
+                    <span class="main__description">About me</span>
+                </li>
+                <li class="main__item">
+                    <a href="#portfolio" class="main__link">
+                        N°2
+                        <span class="main__link--strike"></span>
+                    </a>
+                    <span class="main__description">Portfolio</span>
+                </li>
+                <li class="main__item">
+                    <a href="#toolkit" class="main__link">
+                        N°3
+                        <span class="main__link--strike"></span>
+                    </a>
+                    <span class="main__description">Toolkit</span>
+                </li>
+                <li class="main__item">
+                    <a href="#contact" class="main__link">
+                        N°4
+                        <span class="main__link--strike"></span>
+                    </a>
+                    <span class="main__description">Contact</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- About Me Section -->
+        <section class="about" id="about">
+            <div class="wrapper">
+                <h3 data-aos="fade-down" data-aos-duration="900" class="about__h3">About me</h3>
+                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="150" class="about__container">
+                    <div class="about__image-container" id="slideshow">
+                        <img src="assets/portrait.jpg"  alt="youngfovere" class="image pic1">
+                        <!-- <img src="assets/hover.jpg"  alt="youngfovere" class="image pic2"> -->
+                      
+                    </div>
+                    <div class="about__blurb">
+                        <p class="about__text">Hi i'm <a href="" class="about__bob" target="_blank">${Curtis}</a>, Full-Stack Developer based in Toronto & Hong Kong.</p>
+                        <p class="about__text"> I'm passionate about design, identity, and the intersection of technology and culture. After a long road of self-discovery I yearned to fulfill my creative itch and tap into engineering creative and seemless user experiences. 
+                        I believe new technologies alter our lives. They open up a whole new world of creativity for visual artists, musicians and designers and provide us with a new, thrilling view of the world around us, and indeed, a new view of <i>ourselves</i>.
+                        </p>
+                        <p class="about__text">When I am not coding, I occupy myself with photography, painting, a good book, and <a
+                                href="https://www.instagram.com/youngfovere" class="about__bob" target="_blank">urban exploration</a>.</p>
+                        <p class="about__text">If you'd like to meet for coffee and discuss a  creative endeavour shoot me a message ☕.</p>
+                        <div class="about__link-container">
+                            <a href="#contact" class="about__link">Reach Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio" id="portfolio">
+            <h3 data-aos="fade-up" data-aos-duration="900" class="portfolio__h3">Portfolio</h3>
+
+            <!-- Project 1 - Ultimistics -->
+            <!-- <section class="portfolio__1 ultimistics">
+                <div class="wrapper"> -->
+                    <!-- <div data-aos="fade-up-right" data-aos-duration="1800" class="ultimistics__info">
+                        <h4 class="portfolio__h4">Ultimistics</h4>
+                        <h5 class="portfolio__h5">React <span class="accent">|</span> Firebase <span
+                                class="accent">|</span> JavaScript <span class="accent">|</span> Sass <span
+                                class="accent">|</span> HTML5</h5>
+                        <p class="ultimistics__blurb">A very much needed ultimate frisbee statistics tracking app with a
+                            graphical feature for all my friends and teammates. Gone are the days of stats tracking with
+                            pen and paper, use my app to track how your players are doing!</p>
+                        <div class="ultimistics__link-container">
+                            <a href="https://ultimistics-app.firebaseapp.com/" class="portfolio__link"
+                                target="_blank">Live</a>
+                            <a href="https://github.com/vannachan/ultimistics" class="portfolio__link"
+                                target="_blank">Github</a>
+                        </div>
+                    </div>
+                    <div class="ultimistics__vert-stack">
+                        <img data-aos="fade-right" data-aos-duration="900" data-aos-delay="150"
+                            src="./assets/ultimistics/iso-landing.png" class="image" alt="">
+                        <img data-aos="fade-right" data-aos-duration="900" data-aos-delay="450"
+                            src="./assets/ultimistics/iso-bar.png" class="image" alt="">
+                        <img data-aos="fade-right" data-aos-duration="900" data-aos-delay="750"
+                            src="./assets/ultimistics/iso-tracker.png" class="image" alt="">
+                        <img data-aos="fade-right" data-aos-duration="900" data-aos-delay="950"
+                            src="./assets/ultimistics/iso-radial.png" class="image" alt="">
+                    </div>
+                    <div data-aos="zoom-in-left" data-aos-duration="1500" data-aos-delay="150"
+                        class="ultimistics__media-container">
+                        <img src="./assets/ultimistics/ultimistics-desktop2.png" class="image ultimistics__desktop"
+                            alt="Ultimistics on desktop.">
+                        <div class="ultimistics__video-container">
+                            <video class="video" src="./assets/ultimistics/ultimistics.mp4" preload="auto" muted />
+                        </div>
+                    </div> -->
+                </div> <!-- end of wrapper -->
+            </section> <!-- end of ultimistics -->
+
+            <!-- Project 2 - Vintagefilm -->
+            <section class="portfolio__2 vintagefilm">
+                <div class="wrapper">
+                    <div class="vintagefilm__media-container">
+                        <img data-aos="fade-down" data-aos-duration="900" src="./assets/vintagefilm/vintagefilm-desktop.png"
+                            class="image vintagefilm__desktop" alt="Vintagefilm on desktop.">
+                        <img data-aos="fade-right" data-aos-duration="900" data-aos-delay="150"
+                            src="./assets/vintagefilm/vintagefilm-laptop.png" class="image vintagefilm__laptop"
+                            alt="Vintagefilm on laptop.">
+                        <img data-aos="fade-left" data-aos-duration="900" data-aos-delay="150"
+                            src="./assets/vintagefilm/vintagefilm-mobile.png" class="image vintagefilm__mobile"
+                            alt="Vintagefilm on laptop.">
+                        <!-- <div data-aos="fade-down" data-aos-duration="900" class="vintagefilm__video-container">
+                            <video class="video" src="./assets/vintagefilm/vintagefilm-mobile" preload="auto" muted />
+                        </div> -->
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="250" class="vintagefilm__info">
+                        <h4 class="portfolio__h4">Vintage Film</h4>
+                        <h5 class="portfolio__h5">PSD Conversion <span class="accent">|</span> HTML5 <span
+                                class="accent">|</span> CSS3 <span class="accent">|</span> Responsive </h5>
+                        <p class="vintagefilm__blurb">A single-page PSD conversion, fully responsive across all devices. Dive into the past with these beautiful film cameras, inspired by my love for photography and vintage film.</p>
+                        <div class="vintagefilm__link-container">
+                            <a href="https://yfove.github.io/vintagefilm-psd/" class="portfolio__link"
+                                target="_blank">Live</a>
+                            <a href="https://github.com/yfove/vintagefilm-psd" class="portfolio__link"
+                                target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div> <!-- end of wrapper -->
+            </section> <!-- end of vintagefilm -->
+
+            <!-- Project 3 - Switchone? -->
+            <section class="portfolio__3 switchone">
+                <div class="wrapper">
+                    <div data-aos="fade-up" data-aos-duration="1800" class="switchone__info">
+                        <h4 class="portfolio__h4">Switch One?</h4>
+                        <h5 class="portfolio__h5">JavaScript <span class="accent">|</span> jQuery <span class="accent">|</span> HTML5 <span class="accent">|</span> CSS3 </h5>
+                        <div class="switchone__blurb">
+                            <p>Interested in mechanical keyboards but not sure which switch is right for you? A single page questionnaire for getting to know which Cherry MX switch is best suited for your preferences and helping you tranform your typing experience.</p>
+                        </div>
+                        <div class="switchone__link-container">
+                            <a href="https://yfove.github.io/switchone-js/" class="portfolio__link"
+                                target="_blank">Live</a>
+                            <a href="https://github.com/yfove/switchone-js/" class="portfolio__link"
+                                target="_blank">Github</a>
+                        </div>
+                    </div>
+                    <div class="switchone__media-container">
+                        <img data-aos="fade-right" 
+                        data-aos-duration="1500"
+                        data-aos-delay="250"
+                        src="./assets/switchone/iphone.png" class="image" alt="">
+                    </div>
+                </div> <!-- end of wrapper -->
+            </section> <!-- end of kanye vs trump -->
+
+            <!-- Project 4 - projectspace -->
+            <section class="portfolio__4 projectspace">
+                <div class="wrapper">
+                    <div class="projectspace__media-container">
+                        <img data-aos="fade-down" data-aos-duration="900" data-aos-delay="150"
+                            src="./assets/projectspace/projectspace-desktop.png" class="image projectspace__desktop"
+                            alt="projectspace on desktop.">
+                        <img data-aos="fade-right" data-aos-duration="900" data-aos-delay="150"
+                            src="./assets/projectspace/projectspace-laptop.png" class="image projectspace__laptop"
+                            alt="projectspace on laptop.">
+                        <img data-aos="fade-left" data-aos-duration="900" data-aos-delay="150"
+                            src="./assets/projectspace/projectspace-mobile.png" class="image projectspace__mobile"
+                            alt="projectspace on mobile.">
+                        <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="150"
+                            class="projectspace__video-container">
+                            <video class="video" src="./assets/projectspace/projectspace.mp4" preload="auto" muted />
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="250" class="projectspace__info">
+                        <h4 class="portfolio__h4">ProjectSpace</h4>
+                        <h5 class="portfolio__h5">Ruby on Rails <span class="accent">|</span> HTML5 <span
+                                class="accent">|</span> CSS3 <span class="accent">|</span> PostgreSQL</h5>
+                        <p class="projectspace__blurb">An online community and space for passion projects. If you have the right skills, passion, and want to create <i>something bigger</i> than you can do alone join now! Server-side MVC development, user authentication, with designed and implemented database architecture.
+                        <div class="projectspace__link-container">
+                            <a href="https://secure-hamlet-34582.herokuapp.com/" class="portfolio__link"
+                                target="_blank">Live</a>
+                            <a href="https://github.com/yfove/ProjectSpace" class="portfolio__link"
+                                target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div> <!-- end of wrapper-->
+            </section> <!-- end of projectspace tummy -->
+        </section> <!-- end of portfolio -->
+
+        <!-- Mad Skillz -->
+        <section class="toolkit" id="toolkit">
+            <div class="wrapper">
+                <h3 data-aos="fade-up" data-aos-duration="900" class="toolkit__h3">Toolkit</h3>
+                <ul class="toolkit__list">
+                    <li data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="HTML5 icon">
+                            <i class="devicon-html5-plain html"></i>
+                        </div>
+                        HTML5
+                    </li>
+                    <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="CSS3 icon">
+                            <i class="devicon-css3-plain css"></i>
+                        </div>
+                        CSS3
+                    </li>
+                    <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="350" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Python icon">
+                            <i class="devicon-python-plain python"></i>
+                        </div>
+                        Python
+                    </li>
+                    <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="350" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Python icon">
+                            <i class="devicon-django-plain django"></i>
+                            </div>
+                        Django
+                    </li>
+                    <li data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Javascript icon">
+                                <i class="devicon-ruby-plain ruby"></i>
+                        </div>
+                        Ruby
+                    </li>
+                    <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                            <div class="toolkit__icon-container" aria-label="Javascript icon">
+                                <i class="devicon-rails-plain rails"></i>
+                            </div>
+                            Rails
+                    </li>
+                    <li data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                            <div class="toolkit__icon-container" aria-label="Javascript icon">
+                                <i class="devicon-javascript-plain javascript"></i>
+                            </div>
+                            JavaScript
+                    </li>
+                    <li data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="jQuery icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" class="svg-icon jquery"
+                                fill="">
+                                <path
+                                    d="M9.625 32.181c-11.029 15.851-9.656 36.476-1.231 53.32.2.404.41.801.617 1.198l.394.759.246.437.439.786c.262.461.53.92.804 1.379l.459.756c.304.491.615.976.933 1.46l.398.614c.439.655.888 1.309 1.352 1.951l.039.05.228.308c.401.553.814 1.099 1.232 1.639l.464.59c.373.469.752.935 1.138 1.399l.435.52c.518.61 1.047 1.217 1.586 1.812l.033.033.061.068c.527.575 1.066 1.137 1.612 1.699l.517.521c.423.426.853.845 1.287 1.262l.527.5c.58.547 1.166 1.083 1.764 1.607l.028.022.307.262c.527.456 1.063.909 1.603 1.353l.664.529c.441.354.887.702 1.336 1.044l.714.543c.496.365.995.724 1.499 1.075l.546.387.15.107c.478.329.967.646 1.456.963l.63.42c.75.474 1.51.943 2.279 1.396l.63.355c.565.326 1.134.646 1.71.959.312.168.632.327.946.488.407.213.811.429 1.225.636l.283.137.501.242c.641.306 1.287.607 1.94.897l.41.184c.748.327 1.502.641 2.263.941l.551.217c.704.271 1.418.539 2.135.791l.268.093c.787.275 1.581.53 2.381.779l.575.172c.814.245 1.619.538 2.458.693 53.339 9.727 68.833-32.053 68.833-32.053-13.013 16.953-36.111 21.425-57.996 16.446-.829-.187-1.633-.446-2.442-.685l-.609-.185c-.79-.242-1.573-.497-2.352-.765l-.323-.117c-.698-.245-1.387-.504-2.074-.769l-.582-.229c-.752-.297-1.5-.607-2.239-.931l-.447-.198c-.635-.288-1.263-.578-1.889-.879l-.546-.262c-.491-.239-.977-.493-1.461-.743-.324-.171-.654-.332-.975-.51-.592-.317-1.172-.646-1.751-.982l-.591-.33c-.769-.452-1.528-.921-2.28-1.397l-.615-.41c-.545-.351-1.088-.709-1.623-1.079l-.522-.367c-.516-.365-1.027-.734-1.534-1.109l-.679-.514c-.465-.355-.927-.713-1.384-1.082l-.617-.495c-.582-.479-1.156-.959-1.724-1.453l-.189-.159c-.614-.539-1.216-1.092-1.812-1.647l-.511-.491c-.441-.42-.875-.843-1.302-1.277l-.51-.509c-.543-.556-1.076-1.119-1.598-1.69l-.079-.084c-.552-.604-1.092-1.221-1.621-1.844l-.424-.504c-.394-.475-.785-.956-1.167-1.442l-.427-.532c-.459-.596-.908-1.189-1.347-1.794-12.15-16.574-16.516-39.432-6.805-58.204M43.862 18.825c-7.977 11.478-7.543 26.844-1.321 38.983 1.043 2.035 2.216 4.01 3.528 5.889 1.195 1.713 2.52 3.751 4.106 5.127.575.633 1.176 1.251 1.79 1.858l.472.465c.596.578 1.201 1.146 1.828 1.698l.074.064.018.018c.693.608 1.408 1.191 2.135 1.767l.485.378c.729.559 1.472 1.107 2.233 1.631l.065.049c.336.232.678.448 1.019.672l.483.319c.544.349 1.095.689 1.655 1.015l.235.136c.483.278.972.552 1.463.818l.521.271c.339.177.678.358 1.023.53l.155.07c.703.346 1.412.68 2.136.995l.472.194c.579.246 1.164.486 1.75.71l.75.275c.533.198 1.068.378 1.607.559l.727.233c.767.238 1.525.539 2.324.672 41.183 6.823 50.691-24.886 50.691-24.886-8.57 12.343-25.168 18.233-42.879 13.635-.787-.207-1.562-.431-2.333-.674l-.701-.227c-.548-.177-1.092-.365-1.631-.562l-.736-.274c-.592-.228-1.176-.462-1.756-.708l-.473-.2c-.727-.316-1.443-.65-2.148-.999-.363-.177-.72-.364-1.078-.548l-.622-.32c-.458-.248-.914-.506-1.363-.77l-.326-.185c-.558-.325-1.107-.661-1.651-1.008l-.498-.332c-.359-.232-.717-.469-1.069-.707-.759-.524-1.498-1.072-2.226-1.628l-.501-.395c-7.752-6.12-13.898-14.486-16.819-23.971-3.062-9.836-2.402-20.878 2.903-29.84M72.657 8.847c-4.702 6.92-5.164 15.514-1.901 23.156 3.441 8.113 10.491 14.476 18.72 17.495.339.125.679.237 1.022.354l.451.143c.485.152.966.329 1.467.424 22.74 4.394 28.908-11.669 30.549-14.034-5.402 7.779-14.482 9.646-25.623 6.942-.88-.213-1.847-.531-2.695-.832-1.088-.388-2.16-.83-3.201-1.329-1.978-.951-3.864-2.104-5.612-3.424-9.969-7.565-16.162-21.994-9.657-33.745" />
+                            </svg>
+                        </div>
+                        jQuery
+                    </li>
+                    <li data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="React icon">
+                            <i class="devicon-react-original react"></i>
+                        </div>
+                        React
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="MySQL icon">
+                                <i class="devicon-mysql-plain-wordmark mysql"></i>
+                        </div>
+                        MySQL
+                    </li>
+                    <li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Sass icon">
+                            <i class="devicon-sass-original Sass"></i>
+                        </div>
+                        Sass
+                    </li>
+                    <li data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Github icon">
+                            <i class="devicon-github-plain github"></i>
+                        </div>
+                        Github
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Git icon">
+                            <i class="devicon-git-plain git"></i>
+                        </div>
+                        Git
+                    </li>
+                    <li data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Firebase icon">
+                            <svg version="1.1" class="svg-icon firebase" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="256px" height="351px"
+                                viewBox="0 0 256 351" enable-background="new 0 0 256 351" xml:space="preserve">
+                                <path fill="" d="M0,282.998l2.123-2.973L102.527,89.512l0.212-2.017L58.479,4.358c-3.708-6.964-14.148-5.204-15.365,2.592
+                                L0,282.998z" />
+                                <path fill="" d="M135.005,150.381l32.955-33.751l-32.964-62.93c-3.13-5.957-11.867-5.974-14.963,0l-17.612,33.589v2.861
+                                L135.005,150.381z" />
+                                <path fill="" d="M139.121,347.551l116.275-64.848L222.191,78.209c-1.039-6.398-8.888-8.928-13.467-4.34L0,282.998
+                                l115.608,64.547C122.915,351.625,131.812,351.627,139.121,347.551" />
+                            </svg>
+                            </div>
+                        Firebase
+                    </li>
+                    <li data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="150" class="toolkit__item">
+                        <div class="toolkit__icon-container" aria-label="Photoshop icon">
+                            <i class="devicon-photoshop-line ps"></i>
+                        </div>
+                        Photoshop
+                    </li>
+                </ul>
+            </div> <!-- end of wrapper -->
+        </section>
+        <!-- end of toolkit -->
+
+        <!-- Reach! -->
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h3 data-aos="fade-up" data-aos-duration="900" class="contact__h3">Contact</h3>
+                <form data-aos="zoom-in" data-aos-duration="900" class="contact__form" method="POST"
+                    action="http://www.focuspocus.io/magic/youngfovere@gmail.com" method="POST">
+                    <label class="contact__label" for="name">Name:</label>
+                    <input type="text" class="contact__input contact__input--name" name="name" id="name"
+                        placeholder="Virgil Abloh" required>
+
+                    <label class="contact__label" for="email">Email:</label>
+                    <input type="email" class="contact__input contact__input--email" name="email" id="email"
+                        placeholder="info@off---white.com" required>
+
+                    <label class="contact__label" for="message">Message:</label>
+                    <textarea class="contact__input contact__input--message" name="message" id="message"
+                        placeholder="Hey uhh..we'd like you to work on something for Kanye"></textarea>
+
+                    <label class="contact__label visually-hidden" for="message"></label>
+                    <input type="submit" value="send" name="submit" id="submit" class="contact__submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="#home" class="footer__top" aria-label="To top of page"><i class="fas fa-long-arrow-alt-up"
+                    aria-hidden="true"></i></a>
+            <ul class="footer__social">
+                <li class="footer__item"><a href="https://medium.com/@youngfovere/" class="footer__link"
+                        target="_blank" aria-label="Linkedin">
+                        <i class="fab fa-medium" aria-hidden="true"></i>
+                    </a></li>
+                <li class="footer__item"><a href="https://codepen.io/yfove" class="footer__link" target="_blank"
+                        aria-label="Codepen">
+                        <i class="fab fa-codepen" aria-hidden="true"></i>
+                    </a></li>
+                <li class="footer__item"><a href="https://github.com/yfove/" class="footer__link" target="_blank"
+                        aria-label="Github">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a></li>
+                <li class="footer__item"><a href="https://instagram.com/youngfovere/" class="footer__link" target="_blank"
+                        aria-label="Twitter">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a></li>
+            </ul>
+            <p>&copy; 2019 youngfovere</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript & jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
