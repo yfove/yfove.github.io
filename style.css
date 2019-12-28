@@ -1826,7 +1826,7 @@ input:checked~.header__menu {
 
 @media (max-width: 1320px) {
     .switchone__media-container {
-        bottom: -50%;
+        bottom: -30%;
     }
 }
 

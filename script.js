@@ -29,9 +29,9 @@ app.hamburger = function (){
 // remove aos
 app.removeAos = function () {
   if ($(window).width() <= 500) {
-    $('.hangman__laptop').removeAttr("data-aos");
-    $('.hangry__laptop').removeAttr("data-aos");
-    $('.toolkit__item').removeAttr("data-aos");
+    $('.vintagefilm__laptop').removeAttr("data-aos");
+    $('.switchone__laptop').removeAttr("data-aos");
+    $('.projectspace__item').removeAttr("data-aos");
   }
 }
 
