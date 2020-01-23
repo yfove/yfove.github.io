@@ -2467,6 +2467,11 @@ input:checked~.header__menu {
 }
 
 @media (max-width: 500px) {
+
+    body {
+        overflow: hidden;
+    }
+    
     .contact {
         padding-bottom: 10%;
     }
