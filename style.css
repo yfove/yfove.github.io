@@ -2456,6 +2456,13 @@ input:checked ~ .header__menu {
 }
 
 @media (max-width: 500px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
   .contact {
     padding-bottom: 10%;
   }
