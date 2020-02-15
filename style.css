@@ -990,6 +990,10 @@ input:checked ~ .header__menu {
   }
 }
 
+.header__container {
+  padding: 10px 30px;
+}
+
 @media (max-width: 676px) {
   input:checked + .header__circle {
     -webkit-box-shadow: 0 0 0 90vw orange;
