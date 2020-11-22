@@ -851,9 +851,14 @@ input:checked ~ .header__menu {
   color: orange;
 }
 .header {
-  background-image: url("assets/header.jpg");
-  background-size: 100% 100%;
-  background-repeat: none;
+  background: url("assets/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 90%;
 }
 
@@ -871,9 +876,9 @@ input:checked ~ .header__menu {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 5%;
   background-color: black;
-  opacity: 50%;
+  opacity: 70%;
+  padding: 40px 30px;
 }
 
 .header__scroll {
