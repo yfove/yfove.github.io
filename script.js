@@ -47,7 +47,7 @@ app.init = function () {
   // app.startSlides();
   app.smoothScroll();
   app.hamburger();
-  app.aoScroll();
+  app.aosScroll();
   app.removeAos();
   app.playVideo();
   app.startSlides();

@@ -1603,6 +1603,11 @@ input:checked ~ .header__menu {
   width: 40%;
 }
 
+.covid19__media-container {
+  position: relative;
+  width: 70%;
+}
+
 .hearwhatyousee__video-container,
 .vintagefilm__video-container,
 .switchone__video-container,
