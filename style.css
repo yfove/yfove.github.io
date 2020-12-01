@@ -1830,7 +1830,7 @@ input:checked ~ .header__menu {
 
 .switchone__media-container {
   position: absolute;
-  bottom: -70%;
+  bottom: -53%;
   right: -5%;
   width: 60%;
 }
