@@ -877,8 +877,8 @@ input:checked ~ .header__menu {
   -ms-flex-align: center;
   align-items: center;
   background-color: black;
-  opacity: 70%;
-  padding: 40px 30px;
+  opacity: 60%;
+  padding: 50px 40px;
 }
 
 .header__scroll {
